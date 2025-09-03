@@ -6,9 +6,9 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Explicit CORS Configuration to allow your frontend
+// Explicit CORS Configuration to allow your frontend from port 8080
 const corsOptions = {
-  origin: 'http://localhost:8080', // Your frontend's address
+  origin: 'http://localhost:8080',
   optionsSuccessStatus: 200
 };
 
@@ -24,5 +24,6 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/market', require('./routes/market'));
 app.use('/api/portfolio', require('./routes/portfolio'));
+app.use('/api/content', require('./routes/content'));
 
 app.listen(PORT, () => console.log(`Server is happily running on port ${PORT} 🎉`));
