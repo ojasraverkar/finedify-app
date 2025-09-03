@@ -6,29 +6,23 @@ const auth = require('../middleware/authMiddleware');
 router.get('/quote/:symbol', auth, async (req, res) => {
   try {
     const symbol = req.params.symbol.toUpperCase();
-    const apiKey = process.env.FMP_API_KEY;
     
-    // Using the Financial Modeling Prep API for Indian stocks (.NS suffix)
-    const url = `https://financialmodelingprep.com/api/v3/quote/${symbol}.NS?apikey=${apiKey}`;
+    // The URL of your new Streamlit data API
+    const dataApiUrl = `http://localhost:8501/?symbol=${symbol}`;
 
-    const response = await axios.get(url);
+    console.log(`[Node Backend] Fetching data from Streamlit API for: ${symbol}`);
     
-    if (!response.data || response.data.length === 0) {
-      return res.status(404).json({ msg: 'Stock symbol not found.' });
+    const response = await axios.get(dataApiUrl);
+    
+    if (response.data.error) {
+      return res.status(404).json({ msg: response.data.error });
     }
-    
-    const stockData = response.data[0];
 
-    const quote = {
-      symbol: stockData.symbol,
-      name: stockData.name,
-      price: stockData.price,
-    };
+    res.json(response.data);
 
-    res.json(quote);
   } catch (err) {
-    console.error("FMP API call failed:", err.message);
-    res.status(404).json({ msg: 'Could not fetch data for the symbol.' });
+    console.error("Failed to fetch from Streamlit API:", err.message);
+    res.status(500).json({ msg: 'Could not connect to the data service.' });
   }
 });
 
