@@ -13,6 +13,12 @@ const UserSchema = new mongoose.Schema({
     purchasePrice: { type: Number, required: true },
     purchaseDate: { type: Date, default: Date.now }
   }],
+  // Education module progress: { moduleId: lessonIndex }
+  educationProgress: {
+    type: Map,
+    of: Number,
+    default: {}
+  },
   createdAt: { type: Date, default: Date.now }
 });
 

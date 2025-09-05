@@ -37,4 +37,32 @@ router.post('/buy', auth, async (req, res) => {
   }
 });
 
+// @route   POST api/portfolio/sell
+// @desc    Sell (drop) a stock
+// @access  Private
+router.post('/sell', auth, async (req, res) => {
+  const { symbol, quantity } = req.body;
+  try {
+    const user = await User.findById(req.user.id);
+    const stockIndex = user.portfolio.findIndex(s => s.stockSymbol === symbol);
+    if (stockIndex === -1) {
+      return res.status(400).json({ msg: 'You do not own this stock.' });
+    }
+    if (user.portfolio[stockIndex].quantity < quantity) {
+      return res.status(400).json({ msg: 'Not enough quantity to sell.' });
+    }
+    // Add funds back to virtual balance at purchase price
+    user.virtualBalance += quantity * user.portfolio[stockIndex].purchasePrice;
+    user.portfolio[stockIndex].quantity -= quantity;
+    if (user.portfolio[stockIndex].quantity === 0) {
+      user.portfolio.splice(stockIndex, 1);
+    }
+    await user.save();
+    res.json(user);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server Error');
+  }
+});
+
 module.exports = router;

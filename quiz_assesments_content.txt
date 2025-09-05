@@ -1,0 +1,508 @@
+# Investor Literacy App - Quizzes & Assessments (India Edition)
+
+## Module 1: Stock Market Basics - Quizzes
+
+### Quiz 1.1: Understanding Stocks (Beginner)
+
+**Question 1** (Multiple Choice)
+What does owning stock in a company represent?
+A) A loan to the company that must be repaid
+B) Partial ownership in the company
+C) A guarantee of future profits
+D) The right to manage company operations
+
+**Correct Answer:** B) Partial ownership in the company
+
+**Explanation:** When you buy stock, you become a partial owner (shareholder) of the company. You don't loan money to the company (that's bonds), you're not guaranteed profits (dividends aren't guaranteed), and owning stock doesn't give you management rights unless you own a controlling stake.
+
+---
+
+**Question 2** (Multiple Choice)
+Which type of stock typically has voting rights?
+A) Preferred stock
+B) Common stock (Equity shares)
+C) Treasury stock
+D) Penny stock
+
+**Correct Answer:** B) Common stock (Equity shares)
+
+**Explanation:** Common stockholders (equity shareholders) typically have voting rights in company decisions like electing board members. Preferred stockholders usually don't have voting rights but receive priority for dividends and in bankruptcy proceedings.
+
+---
+
+**Question 3** (Scenario-based - Indian Context)
+Reliance Industries' stock is trading at ₹2,500 per share, and there are 676 crore shares outstanding. What is Reliance's market capitalization?
+A) ₹16.9 lakh crore
+B) ₹1.69 lakh crore  
+C) ₹169 lakh crore
+D) ₹1,690 crore
+
+**Correct Answer:** A) ₹16.9 lakh crore
+
+**Calculation:** Market Cap = Share Price × Outstanding Shares
+₹2,500 × 676 crore = ₹16.9 lakh crore
+
+**Explanation:** Market capitalization represents the total value of all company shares. Reliance is one of India's largest companies by market cap, often exceeding ₹15 lakh crore.
+
+### Quiz 1.2: Stock Exchanges & IPOs (Intermediate)
+
+**Question 1** (True/False)
+The NSE (National Stock Exchange) is India's largest stock exchange by trading volume.
+
+**Correct Answer:** True
+
+**Explanation:** NSE is India's largest stock exchange by trading volume and market capitalization, ahead of BSE (Bombay Stock Exchange). NSE introduced electronic trading to India and hosts the Nifty 50 index.
+
+---
+
+**Question 2** (Multiple Choice - Indian IPO Scenario)
+Zomato went public in 2021 with an IPO price of ₹76 per share. On the first trading day, it opened at ₹116 and closed at ₹126. What does this indicate?
+A) The IPO was underpriced
+B) The IPO was overpriced
+C) Normal IPO trading
+D) Market manipulation occurred
+
+**Correct Answer:** A) The IPO was underpriced
+
+**Explanation:** When a stock opens significantly above its IPO price (₹116 vs ₹76), it suggests underpricing. Zomato could have raised more money for the company, and early institutional investors made quick profits while the company left money on the table.
+
+---
+
+**Question 3** (Multiple Choice - Indian Context)
+Which regulatory body oversees IPOs in India?
+A) RBI (Reserve Bank of India)
+B) SEBI (Securities and Exchange Board of India)
+C) IRDAI (Insurance Regulatory Authority)
+D) NPCI (National Payments Corporation)
+
+**Correct Answer:** B) SEBI (Securities and Exchange Board of India)
+
+**Explanation:** SEBI is India's securities market regulator, equivalent to the SEC in the US. It oversees IPOs, ensures investor protection, and regulates stock exchanges, brokers, and mutual funds.
+
+### Quiz 1.3: Order Types (Advanced)
+
+**Question 1** (Scenario-based Calculation)
+You want to buy Infosys stock currently trading at ₹1,450. You place a limit order at ₹1,420. The stock price drops to ₹1,410, then rises to ₹1,480. What happened to your order?
+A) Order executed at ₹1,420
+B) Order executed at ₹1,410
+C) Order executed at ₹1,450
+D) Order not executed
+
+**Correct Answer:** B) Order executed at ₹1,410
+
+**Explanation:** A limit buy order executes at the limit price or better. Since Infosys dropped to ₹1,410 (better than your ₹1,420 limit), your order would execute at the best available price, which could be ₹1,410 or any price at or below ₹1,420.
+
+---
+
+**Question 2** (Multiple Choice)
+In Indian stock markets, what is the lot size for equity derivatives?
+A) 1 share
+B) 10 shares
+C) Varies by stock (typically 25-4,000 shares)
+D) 100 shares always
+
+**Correct Answer:** C) Varies by stock (typically 25-4,000 shares)
+
+**Explanation:** In Indian F&O (Futures & Options) markets, each stock has a specific lot size determined by SEBI to maintain a minimum contract value of approximately ₹5-10 lakhs. Popular stocks like Reliance might have smaller lot sizes, while expensive stocks like MRF have larger lot sizes.
+
+## Module 2: Risk & Return - Quizzes
+
+### Quiz 2.1: Types of Risk (Intermediate)
+
+**Question 1** (Multiple Choice)
+Which type of risk can be reduced through diversification?
+A) Market risk
+B) Systematic risk
+C) Company-specific risk
+D) Inflation risk
+
+**Correct Answer:** C) Company-specific risk
+
+**Explanation:** Company-specific (unsystematic) risk affects individual companies and can be reduced by diversifying across different companies and sectors. Market risk and systematic risk affect the entire market and cannot be diversified away.
+
+---
+
+**Question 2** (Scenario-based - Indian Context)
+During demonetization in November 2016, most Indian stocks fell regardless of sector. This is an example of:
+A) Company-specific risk
+B) Liquidity risk  
+C) Systematic risk
+D) Currency risk
+
+**Correct Answer:** C) Systematic risk
+
+**Explanation:** Demonetization affected the entire Indian economy and stock market regardless of individual company fundamentals. This demonstrates systematic risk that impacts all stocks and cannot be diversified away within the Indian market.
+
+### Quiz 2.2: Volatility & Beta (Advanced)
+
+**Question 1** (Calculation - Indian Context)
+HDFC Bank has a beta of 0.8 relative to Nifty 50. If Nifty 50 rises 15%, what would you expect HDFC Bank to do?
+A) Rise 15%
+B) Rise 12%
+C) Rise 18.75%
+D) Fall 12%
+
+**Correct Answer:** B) Rise 12%
+
+**Calculation:** Expected Stock Movement = Beta × Market Movement
+0.8 × 15% = 12%
+
+**Explanation:** Beta measures a stock's sensitivity to market movements. HDFC Bank's beta of 0.8 means it typically moves 80% as much as the Nifty 50 in the same direction, making it less volatile than the market.
+
+---
+
+**Question 2** (Scenario-based - Indian Context)
+A 60-year-old investor in Mumbai wants to preserve capital for retirement. Which type of stocks should they focus on?
+A) High beta stocks (> 1.5) like small-cap IT companies
+B) Medium beta stocks (around 1.0) like Nifty 50 companies
+C) Low beta stocks (< 1.0) like FMCG and pharma companies
+D) Beta doesn't matter for retirement planning
+
+**Correct Answer:** C) Low beta stocks (< 1.0) like FMCG and pharma companies
+
+**Explanation:** Conservative investors should focus on low beta stocks like HUL, ITC, or Sun Pharma that are less volatile than the market, providing more stable returns suitable for capital preservation.
+
+### Quiz 2.3: Drawdowns & Recovery Math (Critical Concept)
+
+**Question 1** (Calculation - Key Learning Point)
+Your mutual fund investment of ₹1,00,000 loses 30% during a market crash. What percentage gain do you need to break even?
+A) 30%
+B) 35%
+C) 43%
+D) 50%
+
+**Correct Answer:** C) 43% (rounded from 42.86%)
+
+**Calculation:** 
+- Current value after 30% loss: ₹70,000
+- Need to gain: ₹30,000 on ₹70,000 = 42.86%
+- Formula: Recovery % = Loss % ÷ (1 - Loss %)
+- 30% ÷ (1 - 0.30) = 30% ÷ 0.70 = 42.86%
+
+**Explanation:** This is one of the most important concepts in investing. Large losses require disproportionately large gains to recover, which is why risk management is crucial for long-term wealth creation.
+
+---
+
+**Question 2** (Advanced Scenario - Indian Context)
+Two SIP investors start with ₹10,000 monthly investments:
+- Investor A's fund loses 50% in first year, then gains 100% in second year
+- Investor B's fund gains 22% both years
+After 2 years, who has more money? (Assume ₹1.2 lakh invested each)
+
+**Correct Answer:** Investor B has significantly more
+
+**Calculation:**
+- Investor A: ₹1,20,000 → ₹60,000 → ₹1,20,000 (0% net return)
+- Investor B: ₹1,20,000 → ₹1,46,400 → ₹1,78,608 (48.8% net return)
+
+**Explanation:** Despite the spectacular 100% recovery, Investor A only breaks even due to the severe initial loss. Steady, consistent returns through quality mutual funds often outperform volatile investments over time.
+
+### Quiz 2.4: Leverage Dangers (Advanced - Indian Context)
+
+**Question 1** (Scenario-based Calculation)
+You buy ₹2,00,000 worth of shares using ₹1,00,000 of your money and ₹1,00,000 as margin funding from your broker (2:1 leverage). The stock falls 25%. What's your loss percentage on your invested capital?
+A) 25%
+B) 40%
+C) 50%
+D) 75%
+
+**Correct Answer:** C) 50%
+
+**Calculation:**
+- Stock value drops: ₹2,00,000 × 0.25 = ₹50,000 loss
+- Your loss percentage: ₹50,000 ÷ ₹1,00,000 = 50%
+
+**Explanation:** Leverage amplifies both gains and losses. A 25% stock decline becomes a 50% loss on your invested capital when using 2:1 leverage. Indian brokers typically offer up to 4:1 intraday leverage, which can be extremely risky.
+
+---
+
+**Question 2** (Multiple Choice - Indian Regulatory Context)
+What is the maximum leverage allowed for equity delivery trades in India?
+A) 10:1
+B) 5:1
+C) 2:1
+D) No leverage allowed for delivery
+
+**Correct Answer:** D) No leverage allowed for delivery
+
+**Explanation:** SEBI regulations prohibit leverage for equity delivery trades. You must pay the full amount for shares you intend to hold overnight. Leverage is only allowed for intraday trading, where positions must be closed the same day.
+
+## Module 3: Portfolio Diversification - Quizzes
+
+### Quiz 3.1: Sector Diversification (Intermediate - Indian Context)
+
+**Question 1** (Multiple Choice)
+During an economic slowdown in India, which sectors typically perform better?
+A) Auto and Real Estate
+B) IT and Pharmaceuticals
+C) Banking and Infrastructure
+D) Metals and Cement
+
+**Correct Answer:** B) IT and Pharmaceuticals
+
+**Explanation:** IT companies benefit from rupee depreciation during slowdowns (export earnings), while pharmaceuticals have steady demand regardless of economic cycles. These are considered defensive sectors in the Indian context.
+
+---
+
+**Question 2** (Drag & Drop Matching - Indian Sectors)
+Match each Indian sector with its primary risk factor:
+
+**Sectors:** IT, Banking, Auto, Pharma
+**Risk Factors:** Regulatory/FDA approvals, Interest rate changes, Rural demand fluctuations, Currency fluctuations
+
+**Correct Matches:**
+- IT → Currency fluctuations (USD-INR rates affect revenues)
+- Banking → Interest rate changes (affect margins and NPAs)
+- Auto → Rural demand fluctuations (monsoon dependency)
+- Pharma → Regulatory/FDA approvals (export dependent)
+
+### Quiz 3.2: Correlation & Geographic Diversification (Advanced)
+
+**Question 1** (Multiple Choice - Indian Context)
+During the 2008 global financial crisis, both Sensex and Nifty fell over 50%, but gold prices in rupees rose significantly. This demonstrates:
+A) High positive correlation between Indian stocks and gold
+B) Negative correlation between Indian equities and gold
+C) Perfect correlation between Sensex and Nifty
+D) Diversification doesn't work in Indian markets
+
+**Correct Answer:** B) Negative correlation between Indian equities and gold
+
+**Explanation:** Gold often acts as a hedge during market turmoil in India. When equity markets crash, investors flock to gold, demonstrating negative correlation. This is why many Indian portfolios include gold ETFs or sovereign gold bonds for diversification.
+
+---
+
+**Question 2** (Scenario-based)
+An Indian investor wants international diversification. Which approach provides the best currency and geographic diversification?
+A) Investing only in Indian IT companies with global exposure
+B) Buying US stocks directly through international broking
+C) Investing in international mutual funds and ETFs available in India
+D) Investing in Indian companies with foreign subsidiaries
+
+**Correct Answer:** C) Investing in international mutual funds and ETFs available in India
+
+**Explanation:** International mutual funds (under LRS limit of $250,000 annually) provide professional management, currency hedging options, and easier tax handling compared to direct overseas investing. They also offer better diversification than just IT companies.
+
+### Quiz 3.3: Rebalancing Strategies (Advanced - Indian Context)
+
+**Question 1** (Calculation Scenario)
+Your target allocation is 60% equity, 40% debt. After a bull run, your ₹10 lakh portfolio is now 70% equity, 30% debt. How should you rebalance?
+A) Sell ₹50,000 equity, buy ₹50,000 debt
+B) Sell ₹1 lakh equity, buy ₹1 lakh debt
+C) No rebalancing needed
+D) Buy more equity to ride the momentum
+
+**Correct Answer:** B) Sell ₹1 lakh equity, buy ₹1 lakh debt
+
+**Calculation:**
+- Current: 70% equity (₹7 lakh), 30% debt (₹3 lakh)
+- Target: 60% equity (₹6 lakh), 40% debt (₹4 lakh)  
+- Need to shift: ₹1 lakh from equity to debt
+
+**Explanation:** Rebalancing forces "sell high, buy low" behavior. In taxable accounts, consider tax implications. Use debt funds over FDs for better post-tax returns above 20% tax bracket.
+
+## Module 4: Algorithmic Trading - Quizzes
+
+### Quiz 4.1: Algo Trading Basics (Intermediate - Indian Context)
+
+**Question 1** (True/False)
+Retail investors can use algorithmic trading on Indian stock exchanges.
+
+**Correct Answer:** True
+
+**Explanation:** Many Indian brokers like Zerodha (Streak), Upstox, and others offer algorithmic trading platforms for retail investors. However, complex strategies require programming knowledge and proper risk management.
+
+---
+
+**Question 2** (Multiple Choice)
+What is the main advantage of algorithmic trading for Indian retail investors?
+A) Guaranteed profits in volatile markets
+B) Removes emotional decision-making from trading
+C) Provides insider information access
+D) Eliminates brokerage costs
+
+**Correct Answer:** B) Removes emotional decision-making from trading
+
+**Explanation:** Algorithmic trading helps Indian investors avoid emotional decisions during volatile periods like budget announcements, election results, or RBI policy changes, leading to more disciplined execution.
+
+### Quiz 4.2: HFT Understanding (Advanced - Indian Context)
+
+**Question 1** (Multiple Choice)
+High-frequency trading in Indian markets is primarily done by:
+A) Retail day traders
+B) Mutual fund companies
+C) Foreign institutional investors and proprietary trading firms
+D) Government pension funds
+
+**Correct Answer:** C) Foreign institutional investors and proprietary trading firms
+
+**Explanation:** HFT in India requires significant capital, technology infrastructure, and co-location facilities at exchanges like NSE and BSE. This makes it accessible primarily to large institutional players, not retail investors.
+
+## Module 5: Fraud & Scams Awareness - Quizzes
+
+### Quiz 5.1: Pump and Dump Recognition (Critical - Indian Context)
+
+**Question 1** (Scenario-based)
+You receive a WhatsApp message: "🚨 URGENT! ABC Textiles (₹12 stock) getting delisted tomorrow! Insider tip - buy NOW before ₹50 target! Forward to 10 friends! 💰💰" What should you do?
+A) Buy the stock immediately before delisting
+B) Research ABC Textiles' fundamentals first
+C) Ignore - this is clearly a pump-and-dump scam
+D) Forward to friends so they can also profit
+
+**Correct Answer:** C) Ignore - this is clearly a pump-and-dump scam
+
+**Explanation:** Classic Indian WhatsApp scam with red flags: false urgency, impossible returns (₹12 to ₹50), "insider" information, emoji use to create excitement, and viral spreading tactics. Delisted stocks become worthless, not valuable.
+
+---
+
+**Question 2** (Multiple Choice - Indian Context)
+Which is the best way to verify a stock tip received through Telegram/WhatsApp?
+A) Check if others in the group are buying
+B) Research company's annual reports on BSE/NSE websites
+C) See if the stock price is already rising
+D) Trust it if the sender made money before
+
+**Correct Answer:** B) Research company's annual reports on BSE/NSE websites
+
+**Explanation:** Always verify through official sources. BSE and NSE websites provide authentic financial data, annual reports, and corporate announcements. Social media validation and past performance don't guarantee legitimacy.
+
+### Quiz 5.2: Guaranteed Return Scams (Critical - Indian Context)
+
+**Question 1** (True/False)
+A 30% guaranteed annual return through "special FD schemes" is possible in India's current interest rate environment.
+
+**Correct Answer:** False
+
+**Explanation:** With SBI FD rates around 6-7%, any scheme promising 30% guaranteed returns is fraudulent. Even the highest legitimate options like PPF (7.1%), SCSS (8%), or corporate bonds (8-12%) don't offer such returns without significant risk.
+
+---
+
+**Question 2** (Scenario-based - Indian Context)
+Your neighbor claims his "chit fund" guarantees 25% returns and needs ₹50,000 minimum investment. He can't explain the business model clearly but shows WhatsApp screenshots of profits. What should you do?
+A) Invest - neighbor relationships make it trustworthy
+B) Ask for references from other investors
+C) Avoid - this shows classic fraud warning signs
+D) Invest ₹10,000 to test the scheme
+
+**Correct Answer:** C) Avoid - this shows classic fraud warning signs
+
+**Explanation:** Red flags include: unrealistic guaranteed returns, inability to explain business model, WhatsApp "proof" (easily faked), minimum investment requirements, and exploiting personal relationships. Many Ponzi schemes in India operate through social networks.
+
+### Quiz 5.3: Indian-Specific Scams (Critical)
+
+**Question 1** (Multiple Choice)
+What should you do if someone claims to offer "pre-IPO shares" of a well-known startup?
+A) Buy immediately as IPO gains are guaranteed
+B) Verify through official company announcements and SEBI filings
+C) Ask for a discount on the pre-IPO price
+D) Check with friends if they're also buying
+
+**Correct Answer:** B) Verify through official company announcements and SEBI filings
+
+**Explanation:** Legitimate pre-IPO investments go through registered merchant bankers and have SEBI documentation. Scammers often use famous company names to sell worthless shares or non-existent opportunities.
+
+---
+
+**Question 2** (Scenario-based)
+You receive a call claiming you've won ₹10 lakhs in a "KBC lottery" but need to pay ₹50,000 as "tax" first. The caller has your personal details. What should you do?
+A) Pay the tax to claim the prize
+B) Negotiate the tax amount down
+C) Hang up - this is a classic advance fee fraud
+D) Ask them to deduct tax from the prize money
+
+**Correct Answer:** C) Hang up - this is a classic advance fee fraud
+
+**Explanation:** KBC doesn't run lotteries requiring upfront payments. Scammers buy personal data from various sources. Legitimate winnings never require advance tax payments - taxes are deducted from prize money directly.
+
+## Adaptive Difficulty System Design (India-Specific)
+
+### Beginner Level Indicators
+- Unfamiliar with terms like "demat account," "SIP," "NAV"
+- Struggles with rupee-based calculations
+- Needs practice with Indian regulatory concepts
+- Focus areas: Basic Indian market terminology, SEBI regulations, tax implications
+
+### Intermediate Level Indicators  
+- Understands mutual funds vs stocks vs bonds
+- Can calculate SIP returns and tax implications
+- Recognizes major scams but needs practice with subtle frauds
+- Focus areas: Portfolio construction, advanced tax planning, sector analysis
+
+### Advanced Level Indicators
+- Understands complex products like derivatives, international funds
+- Applies tax optimization strategies effectively
+- Recognizes sophisticated frauds and regulatory violations
+- Focus areas: Advanced strategies, regulatory changes, global diversification
+
+## Progress Tracking & Gamification (India-Specific)
+
+### Achievement Badges
+
+**Knowledge Badges:**
+- 🇮🇳 **Indian Market Master**: Complete all modules with 80%+ scores
+- 📈 **Nifty Navigator**: Perfect understanding of Indian indices and sectors
+- 💎 **SIP Specialist**: Master systematic investment planning concepts
+- 🛡️ **Scam Spotter**: Identify all Indian fraud scenarios correctly
+- 🏦 **Tax Optimizer**: Understand Indian investment taxation thoroughly
+
+**Cultural Badges:**
+- 🪙 **Gold & Real Estate**: Understand traditional vs modern investments
+- 💰 **Rupee Risk Manager**: Master currency and inflation impacts
+- 🕸️ **WhatsApp Warrior**: Resist social media investment tips
+- 📱 **Digital Investor**: Navigate modern Indian investment platforms
+- 🎯 **Goal-Based Planning**: Align investments with Indian financial goals
+
+### Indian Investment Goals Integration
+- **Child Education Fund**: 15-20 year investment horizon
+- **Home Purchase**: 5-10 year saving strategies  
+- **Retirement Corpus**: 25-40 year wealth building
+- **Emergency Fund**: 6-12 months expense coverage
+- **Tax Saving**: Section 80C and other deductions
+
+## Scenario-Based Assessment Examples (Indian Context)
+
+### Scenario 1: Market Volatility Response
+*"It's March 2020. COVID-19 lockdown is announced. Your diversified mutual fund portfolio has dropped 35% in one month. You have ₹50,000 in emergency fund and 15 years until retirement. What's your best course of action?"*
+
+**Options:**
+A) Redeem all mutual funds to avoid further losses
+B) Continue SIPs and don't check portfolio daily
+C) Increase SIP amount to buy at lower NAVs  
+D) Switch to debt funds completely
+
+**Best Answer:** B or C (depending on emergency fund adequacy)
+**Key Learning:** Indian markets are volatile but long-term SIPs have historically rewarded patient investors
+
+### Scenario 2: Indian Fraud Detection  
+*"You receive a call offering 'guaranteed 40% returns' through a new government scheme for COVID relief. They need your PAN, Aadhaar, and ₹1 lakh deposit. The caller knows your bank details and says RBI has approved this scheme."*
+
+**Red Flags to Identify:**
+- No government scheme offers such returns
+- Legitimate schemes don't require upfront payments
+- Government schemes are announced through official channels
+- Personal data misuse to build credibility
+- Pressure tactics using authority (RBI name)
+
+### Scenario 3: Tax Optimization Dilemma
+*"You're in 30% tax bracket with ₹2 lakh annual surplus. Your options are: ELSS mutual funds (80C), PPF top-up, international mutual funds, or direct equity. Consider 10-year investment horizon for child's education."*
+
+**Analysis Required:**
+- ELSS: 3-year lock-in, equity returns, tax deduction
+- PPF: 15-year lock-in, guaranteed 7.1%, tax-free returns  
+- International funds: Currency diversification, no tax benefit
+- Direct equity: Highest potential returns, requires expertise
+
+## Quiz Analytics & Improvement System (India-Specific)
+
+### Indian Investor Behavior Patterns
+- **Risk Aversion**: Extra emphasis on guaranteed products vs market-linked
+- **Tax Anxiety**: Additional focus on tax-saving instruments and implications
+- **Gold/Real Estate Bias**: Education on financial assets vs traditional investments
+- **Social Proof Dependency**: Resistance training against WhatsApp tips and neighbor advice
+
+### Personalized Learning Paths
+**Traditional Investor Profile**: Transition from FDs/gold to mutual funds gradually
+**Tax-Focused Profile**: Emphasis on tax-efficient investing under Indian laws  
+**Tech-Savvy Profile**: Advanced topics like international investing, derivatives
+**Scam-Prone Profile**: Extended fraud awareness with Indian case studies
+
+This comprehensive Indian-focused quiz system will dramatically improve user learning by addressing local market conditions, regulatory environment, cultural investment preferences, and specific fraud patterns prevalent in India.
