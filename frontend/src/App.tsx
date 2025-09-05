@@ -1,41 +1,35 @@
-// src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Index from './pages/Index';
-import Modules from './pages/Modules';
-import NotFound from './pages/NotFound';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
+import React, { useState } from 'react';
+
+// Import all the pages your app will show
+import Index from './pages/Index'; // Your landing page
+import LoginPage from './pages/LoginPage'; // Your login page
 import Dashboard from './pages/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute'; // <-- Import the guard
-import QuizDashboard from './components/QuizDashboard';
-import PortfolioTrading from './pages/PortfolioTrading';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        {/* Public Routes */}
-        <Route path="/" element={<Index />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/modules" element={<Modules />} />
-        <Route path="/quiz" element={<QuizDashboard />} />
-        <Route path="/portfolio-trading" element={<PortfolioTrading />} />
-        
-        {/* Protected Route */}
-        <Route 
-          path="/dashboard/*" 
-          element={
-            <ProtectedRoute>
-              <Dashboard />
-            </ProtectedRoute>
-          }
-        />
-        
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
-  );
+  // This state now tracks which view is active
+  const [view, setView] = useState('landing'); // Start with the 'landing' view
+
+  const demoUser = { username: 'Ojas' };
+
+  // This will be called from the landing page to go straight to the dashboard
+  const handleEnterDashboard = () => setView('dashboard');
+
+  // This is called from the dashboard header to go back to the landing page
+  const handleLogout = () => setView('landing');
+
+  // Logic to render the correct page
+  if (view === 'landing') {
+    return <Index onEnterDashboard={handleEnterDashboard} />;
+  }
+
+  // NOTE: The LoginPage is now bypassed, but we leave the code here for the future.
+  if (view === 'login') {
+    return <LoginPage onLogin={handleEnterDashboard} />;
+  }
+
+  if (view === 'dashboard') {
+    return <Dashboard username={demoUser.username} onLogout={handleLogout} />;
+  }
 }
 
 export default App;
