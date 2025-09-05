@@ -1,1 +1,11 @@
-node_modules/node_modules/.vercel
+# Node modules
+node_modules
+
+# Vercel
+.vercel
+
+# Environment files
+.env
+
+# Other
+node_modules/.vercel
