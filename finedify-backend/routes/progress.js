@@ -1,7 +1,7 @@
 // finedify-backend/routes/progress.js
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleware/authmiddleware');
+const auth = require('../middleware/authMiddleware');
 const User = require('../models/User');
 
 // GET /api/progress - Get user's education module progress

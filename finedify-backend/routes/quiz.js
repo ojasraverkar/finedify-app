@@ -1,7 +1,7 @@
 // finedify-backend/routes/quiz.js
 const express = require('express');
 const router = express.Router();
-const auth = require('../middleware/authmiddleware');
+const auth = require('../middleware/authMiddleware');
 const Quiz = require('../models/Quiz');
 const UserQuizPerformance = require('../models/UserQuizPerformance');
 
